@@ -1,0 +1,215 @@
+/* --------------------Кольори-------------------- */
+:root{
+    --iris: #4d5ae5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --nb-modal: #2E2F4266;
+    --grey: #2E2F42B2;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+
+/* ---------------------------Body--------------------------- */
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+
+/* ------------Header та Footer для усіх сторінок------------ */
+
+.footer{
+    background-color: var(--navy-blue);
+}
+
+.logo{
+    color: var(--iris);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo-header{
+    color: var(--navy-blue);
+}
+
+.logo-footer{
+    color: var(--cloud);
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-item{
+    color: var(--navy-blue);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-item:hover, .nav-item:focus, .nav-item:active{
+    color: var(--ocean);
+    text-decoration: underline;
+}
+
+.adds{
+    font-style: normal;
+}
+
+.contact-information{
+    color: var(--slate);
+    text-decoration: none;
+}
+
+.contact-information:hover, .contact-information:focus{
+    color: var(--ocean);
+}
+
+.basement{
+    background-color: var(--navy-blue);
+}
+
+.basement-text{
+    color: var(--cloud);
+}
+
+
+/* -----------------Main для усіх сторінок----------------- */
+
+
+
+/* -----------------Main Studio----------------- */
+.order-service-section{
+    background-color: var(--navy-blue);
+}
+
+.first-header{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.second-header{
+    color: var(--navy-blue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.third-header{
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.ind-button{
+    background-color: var(--iris);
+    color: var(--white);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.ind-button:hover, .ind-button:focus{
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.ind-button:active{
+    background-color: var(--iris);
+}
+
+.ind-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.studio-fourth-section{
+    background-color: var(--cloud);
+}
+
+.team{
+    background-color: var(--white);
+}
+
+.we-do-img{
+    border: 1px solid var(--cornflower);
+    background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
+}
+
+.team-photo{
+    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+}
+
+
+/* -----------------Main Portfolio----------------- */
+
+.first-header-por{
+    color: var(--navy-blue);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.second-header-por{
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.por-button{
+    background-color: var(--cloud);
+    color: var(--iris);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.por-button:hover, .por-button:focus{
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.por-button:active{
+    background-color: var(--iris);
+}
+
+.por-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
