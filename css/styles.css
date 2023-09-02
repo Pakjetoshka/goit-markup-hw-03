@@ -14,6 +14,15 @@
     --dairy: #FCFCFC;
 }
 
+/* --------------------Обнулення змінних-------------------- */
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+}
 
 /* ---------------------------Body--------------------------- */
 
@@ -22,15 +31,50 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 1440px;
     color: var(--slate);
     background-color: var(--white);
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-main section{
+    margin-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.container-main section:last-child{
+    margin-bottom: 0;
+}
+
+.container-hat{
+    padding: 24px 156px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-basement{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 156px;
+}
+
 
 /* ------------Header та Footer для усіх сторінок------------ */
-
-.footer{
+footer{
     background-color: var(--navy-blue);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .logo{
@@ -58,6 +102,10 @@ body{
 
 .list {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .nav-item{
@@ -65,10 +113,11 @@ body{
     font-weight: 500;
     text-decoration: none;
 }
-
+header{
+    display: flex;
+}
 .nav-item:hover, .nav-item:focus, .nav-item:active{
     color: var(--ocean);
-    text-decoration: underline;
 }
 
 .adds{
@@ -84,10 +133,6 @@ body{
     color: var(--ocean);
 }
 
-.basement{
-    background-color: var(--navy-blue);
-}
-
 .basement-text{
     color: var(--cloud);
 }
@@ -95,11 +140,17 @@ body{
 
 /* -----------------Main для усіх сторінок----------------- */
 
-
+main{
+    flex-grow: 1;
+}
 
 /* -----------------Main Studio----------------- */
-.order-service-section{
+.studio-first-section{
     background-color: var(--navy-blue);
+    padding: 188px 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .first-header{
@@ -109,6 +160,7 @@ body{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .second-header{
@@ -119,6 +171,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .third-header{
@@ -135,6 +188,7 @@ body{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
     cursor: pointer;
 }
 
@@ -156,6 +210,7 @@ body{
 
 .studio-fourth-section{
     background-color: var(--cloud);
+    padding: 120px 156px;
 }
 
 .team{
@@ -179,6 +234,8 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
 .second-header-por{
