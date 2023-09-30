@@ -14,6 +14,7 @@
     --dairy: #FCFCFC;
 }
 
+
 /* --------------------Обнулення змінних-------------------- */
 h1, h2, h3, h4, p{
     margin: 0;
@@ -27,6 +28,7 @@ ul{
     margin: 0;
     padding-left: 0;
 }
+
 
 /* ---------------------------Body--------------------------- */
 
@@ -142,7 +144,7 @@ main{
 
 .studio-first-section{    /* ======first section====== */
     background-color: var(--navy-blue);
-    padding: 188px 0;
+    padding: 188px 472px;
 }
 
 .first-header-ind{
@@ -204,6 +206,7 @@ main{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 163px;
 }
 
 .ind-button:hover, .ind-button:focus{
