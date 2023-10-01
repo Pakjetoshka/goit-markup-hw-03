@@ -144,7 +144,7 @@ main{
 
 .studio-first-section{    /* ======first section====== */
     background-color: var(--navy-blue);
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 
 .first-header-ind{
@@ -206,7 +206,6 @@ main{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 0 163px;
 }
 
 .ind-button:hover, .ind-button:focus{
@@ -240,11 +239,11 @@ main{
 }
 
 .studio-third-section{    /* ======third section====== */
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .threesect-list-item{
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4);
 }
 
 .we-do-img{
